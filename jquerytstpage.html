@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Waffel</h1>
+</body>
+    <footer>
+        <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script>
+            $( window ).on( "keydown", function (K) {
+                const Arrows = ["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"]
+                if (Arrows.includes(K.key)) {
+                    alert(K.key + " is pushed");
+                }
+            });
+        </script>
+    </footer>
+</html>
